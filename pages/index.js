@@ -31,7 +31,7 @@ const Home = () => {
             </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
-                <a href="/about">About</a>
+                <a href="/about.html">About</a>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
                 <a href="/results">Results</a>
