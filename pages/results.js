@@ -12,7 +12,6 @@ const Grid = ({ children }) => <div className={styles.grid}>{children}</div>;
 Grid.propTypes = {
   children: PropTypes.node.isRequired
 };
-
 const Results = () => {
   return (
     <div className={styles.container}>
@@ -40,6 +39,8 @@ const Results = () => {
               </Grid>
             </div>
           ))}
+          <div className="flex flex-col justify-center items-center pt-4 pb-16"></div>
+          <div className="flex flex-col justify-center items-center pt-4 pb-16"></div>
         </div>
       </Container>
     </div>

@@ -58,7 +58,7 @@ export default function Navbar() {
                     <NavLink to="/">
                         Home
                     </NavLink>
-                    <NavLink to="/about">
+                    <NavLink to="/about.html">
                         About
                     </NavLink>
                     <NavLink to="/results">

@@ -3,21 +3,39 @@
     "Batch": "Class XII",
     "Toppers": [
       {
-        "image": "/pbimg.png",
+        "image": "/topper1.png",
         "name": "Divyam Prusty",
-        "percentage": "95%",
-        "stream": "Science"
-      },
-      {
-        "image": "",
-        "name": "",
-        "percentage": "",
+        "percentage": "99%",
         "stream": ""
       },
       {
-        "image": "",
-        "name": "",
-        "percentage": "",
+        "image": "/topper2.png",
+        "name": "HARI OM KRISHNA",
+        "percentage": "99%",
+        "stream": ""
+      },
+      {
+        "image": "/topper3.png",
+        "name": "PUNYA KAPOOR",
+        "percentage": "99.2%",
+        "stream": ""
+      },
+      {
+        "image": "/topper4.png",
+        "name": "SHIVESHT SHARMA",
+        "percentage": "99.2%",
+        "stream": ""
+      },
+      {
+        "image": "/topper5.png",
+        "name": "PRANAV BHASIN",
+        "percentage": "99.4%",
+        "stream": ""
+      },
+      {
+        "image": "/topper6.png",
+        "name": "ABHYUDAY VADEHRA",
+        "percentage": "99.4%",
         "stream": ""
       }
     ]
