@@ -1,0 +1,25 @@
+[
+  {
+    "Batch": "Class XII",
+    "Toppers": [
+      {
+        "image": "/pbimg.png",
+        "name": "Divyam Prusty",
+        "percentage": "95%",
+        "stream": "Science"
+      },
+      {
+        "image": "",
+        "name": "",
+        "percentage": "",
+        "stream": ""
+      },
+      {
+        "image": "",
+        "name": "",
+        "percentage": "",
+        "stream": ""
+      }
+    ]
+  }
+]

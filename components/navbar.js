@@ -24,18 +24,6 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-medium my-4" href="/results" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Results
                 </a>
-                <a className="text-xl font-normal my-4" href="/members" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Members
-                </a>
-                <a className="text-xl font-normal my-4" href="/alumni" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Alumni
-                </a>
-                <a className="text-xl font-normal my-4" href="" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Links
-                </a>
-                {/* <a className="text-xl font-normal my-4" href="/gallery" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Gallery
-                </a> */}
             </div>  
         </div>
     )
@@ -45,7 +33,7 @@ export default function Navbar() {
 
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter drop-shadow-md px-4 justify-around items-center">
+        <nav className="flex filter drop-shadow-md px-4 justify-between items-center py-4 border-b-2 mb-8">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="">
               {/* <div className="text-xl flex items-center w-64 h-16">
@@ -75,15 +63,6 @@ export default function Navbar() {
                     </NavLink>
                     <NavLink to="/results">
                         Results
-                    </NavLink>
-                    <NavLink to="/members">
-                        Members
-                    </NavLink>
-                    <NavLink to="/alumni">
-                        Alumni
-                    </NavLink>
-                    <NavLink to="">
-                        Links
                     </NavLink>
                     {/* <NavLink to="/gallery">
                         Gallery
